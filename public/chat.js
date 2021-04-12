@@ -24,5 +24,5 @@ socket.on("chat", function(data){
 })
 
 socket.on("typing", function(data){
-    feedback.innerHTML += "<p><em>"+data+" is typing a message..." + "</em></p>"
+    feedback.innerHTML = "<p><em>"+data+" is typing a message..." + "</em></p>"
 })
